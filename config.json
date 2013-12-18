@@ -1,0 +1,22 @@
+{
+  "routes":
+  [
+    { "path": "/", "callback": "application#index" },
+      { "path": "/test/abc", "callback": "application#index" },
+      { "path": "/test/:name", "callback": "application#test"},
+      { "path": "/test/:name/abc", "callback": "application#test"},
+      { "path": "/test/:name/ycc/:id", "callback": "application#test"},
+      { "path": "/test/:name/:id", "callback": "application#test"},
+      { "path": "/test/nameopt/:name?/reqid/:id", "callback": "application#test"},
+      { "path": "/test/reqname/:name/idopt/:id?/", "callback": "application#test"},
+      { "path": "/test/nameopt/:name?/idopt/:id?", "callback": "application#test"}
+  ],
+  "filters":
+  [
+  	 { "path": "/", "callback": "" }
+  ],
+  "websockets":
+  [
+  	{ "event": "", "callback": ""}
+  ]
+}

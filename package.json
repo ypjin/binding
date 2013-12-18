@@ -1,0 +1,34 @@
+{
+  "name": "binding",
+  "version": "0.1.0",
+  "description": "",
+  "framework": "mvc",
+  "bodyParser": true,
+  "main": "app.js",
+  "logfile" : "dv.log",
+  "keywords": [
+  ],
+  "author": "",
+  "maintainers": [
+  ],
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "preferGlobal": false,
+  "dependencies": {
+    "request": "*"
+  },
+  "devDependencies": {
+    "should": "2.1.0",
+    "sinon": "1.7.3",
+    "rewire": "2.0.0"
+  },
+    "engines": {
+        "node": ">=0.10.22"
+    },
+  "license":"",
+  "private": true
+}
